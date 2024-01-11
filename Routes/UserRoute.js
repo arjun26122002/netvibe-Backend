@@ -4,9 +4,9 @@ import { UnFollowUser, deleteUser, followUser, getUser, updateuser } from "../Co
 
 const router = express.Router()
 
-router.get('/:id' , getUser)
-router.put('/:id',updateuser)
-router.delete('/:id',deleteUser)
-router.put('/:id/follow',followUser)
-router.put('/:id/unfollow',UnFollowUser)
+router.get('/:id', getUser)
+router.put('/:id', updateuser)
+router.delete('/:id', deleteUser)
+router.put('/:id/follow', followUser)
+router.put('/:id/unfollow', UnFollowUser)
 export default router
